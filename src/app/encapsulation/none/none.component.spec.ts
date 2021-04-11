@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { Child4Component } from './child4.component';
+import { NoneComponent } from './none.component';
 
-describe('Child4Component', () => {
-  let component: Child4Component;
-  let fixture: ComponentFixture<Child4Component>;
+describe('NoneComponent', () => {
+  let component: NoneComponent;
+  let fixture: ComponentFixture<NoneComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ Child4Component ]
+      declarations: [ NoneComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(Child4Component);
+    fixture = TestBed.createComponent(NoneComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

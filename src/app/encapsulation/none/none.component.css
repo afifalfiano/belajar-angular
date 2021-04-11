@@ -1,0 +1,14 @@
+/* h1 {
+    color: blue;
+} */
+
+.blue-button[_ngcontent-c0] {
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    border: 0;
+}
+
+p[_ngcontent-c1] {
+    color: red;
+}
